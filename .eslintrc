@@ -4,6 +4,7 @@
         "next/core-web-vitals"
     ],
     "rules": {
+        "indent": ["error", 2],
         "no-unused-vars": "error"
       }
 }
