@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  const a = 1;
+  const aa = 1;
   return (
     <div className={styles.container}>
       <Head>
