@@ -1,10 +1,18 @@
 {
     "extends": [
         "next",
-        "next/core-web-vitals"
+        "next/core-web-vitals",
+        "eslint:recommended"
     ],
     "rules": {
         "indent": ["error", 2],
-        "no-unused-vars": "error"
+        "no-unused-vars": "error",
+        "react/no-typos": "error",
+        "react/jsx-indent": ["error", 2],
+        "react/jsx-indent-props": ["error", 2],
+        "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "no-console": ["error"]
       }
 }
