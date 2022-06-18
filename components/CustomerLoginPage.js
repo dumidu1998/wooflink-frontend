@@ -15,7 +15,9 @@ function Header() {
                 </div>
                 <h1 className="heading">Woof-Link</h1>
                 <h2 className="heading2">Grooming. Boarding. Clinic</h2>
-                <Formik>
+                <Formik
+                    onSubmit={() => { }}
+                >
                     <Form>
                         <div className="login-form d-flex flex-column align-items-center">
                             <WInput
