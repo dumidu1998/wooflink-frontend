@@ -1,6 +1,5 @@
 import React from "react";
-import { Image, Form, Button } from "react-bootstrap";
-import LoginImage from '../images/LoginGroup.png';
+import { Form, Button } from "react-bootstrap";
 
 function SellerLoginPage() {
     return (

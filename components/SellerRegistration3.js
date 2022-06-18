@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Form, Button, Row, Col, InputGroup } from "react-bootstrap";
+import { Image, Form, Button, InputGroup } from "react-bootstrap";
 import LoginImage from '../images/LoginGroup.png';
 
 function SellerRegistration3() {

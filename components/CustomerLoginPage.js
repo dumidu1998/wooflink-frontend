@@ -21,7 +21,7 @@ function Header() {
 
                     <WButton text="Sign Up" />
                 </div>
-                <h2 className="dnthaccount">Don't have an account? <a href="/customer-registration">Sign Up</a></h2>
+                <h2 className="dnthaccount">Don&apos;t have an account? <a href="/customer-registration">Sign Up</a></h2>
                 <Row>
                     <Col><hr /></Col>
                     Or
