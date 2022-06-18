@@ -1,6 +1,7 @@
 import React from "react";
-import { Form, Container, Navbar } from "react-bootstrap";
+import { Container, Navbar } from "react-bootstrap";
 import WInput from "./common/WInput";
+import { Formik, Form } from "formik";
 
 function HomePage() {
     return (
@@ -15,10 +16,11 @@ function HomePage() {
             <h1 className="heading">Woof-Link</h1>
             <h2 className="heading2">Grooming. Boarding. Clinic</h2>
             <h3 className="text6">I&apos;m looking around</h3>
-            <Form className="login-form">
-                <WInput placeholder="Center Location" />
-                <Form.Control className="text-box form-text" type="text" placeholder="Center Location" />
-            </Form>
+            <Formik>
+                <Form className="login-form">
+                    <WInput placeholder="Center Location" />
+                </Form>
+            </Formik>
         </>
     )
 }

@@ -16,9 +16,9 @@ function CustomerReg() {
             <p className="text2">Personal Information</p>
             <Formik>
                 <Form className="login-form d-flex flex-column align-items-center">
-                    <WInput placeholder="First Name" />
-                    <WInput placeholder="Last Name" />
-                    <WInput placeholder="Contact Number" />
+                    <WInput placeholder="First Name" name="fname" />
+                    <WInput placeholder="Last Name" name="lname" />
+                    <WInput placeholder="Contact Number" name="contact" />
                 </Form>
             </Formik>
             <p className="text2">Address</p>
