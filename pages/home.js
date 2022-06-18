@@ -5,16 +5,14 @@ import HomePage from '../components/HomePage'
 
 function home() {
     return (
-        <>
-            <div className={styles.container}>
-                <Head>
-                    <title>Wooflink</title>
-                    <meta name="description" content="Wooflink" />
-                    <link rel="icon" href="/favicon.ico" />
-                </Head>
-            </div>
+        <div className={styles.container}>
+            <Head>
+                <title>Wooflink</title>
+                <meta name="description" content="Wooflink" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <HomePage />
-        </>
+        </div>
     )
 }
 

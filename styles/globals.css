@@ -203,7 +203,7 @@ a {
   line-height: 24px;
   font-feature-settings: "liga" off, "calt" off;
   color: #000000;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .btn4 {

@@ -19,14 +19,13 @@ function CustomerReg() {
                     <WInput placeholder="First Name" name="fname" />
                     <WInput placeholder="Last Name" name="lname" />
                     <WInput placeholder="Contact Number" name="contact" />
+
+                    <p className="text2">Address</p>
+                    <WInput placeholder="Street" name="street" />
+                    <WInput placeholder="City" name="city" />
+                    <WInput placeholder="District" name="district" />
                 </Form>
             </Formik>
-            <p className="text2">Address</p>
-            <Form className="login-form">
-                <Form.Control className="text-box form-text" type="text" placeholder="Street" />
-                <Form.Control className="text-box form-text" type="text" placeholder="City" />
-                <Form.Control className="text-box form-text" type="text" placeholder="District" />
-            </Form>
             <div className="d-grid gap-2">
 
                 <Button className="btn4" variant="primary" size="lg" href="/customer-registration2" >
