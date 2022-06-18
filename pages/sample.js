@@ -4,13 +4,15 @@ import Head from 'next/head'
 
 function sample() {
     return (
-        <div className={styles.container}>
-            <Head>
-                <title>Wooflink1</title>
-                <meta name="description" content="Wooflink" />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-        </div>
+        <>
+            <div className={styles.container}>
+                <Head>
+                    <title>Wooflink</title>
+                    <meta name="description" content="Wooflink" />
+                    <link rel="icon" href="/favicon.ico" />
+                </Head>
+            </div>
+        </>
     )
 }
 

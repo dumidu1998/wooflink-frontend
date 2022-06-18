@@ -1,5 +1,6 @@
 import React from "react";
 import { Form, Button } from "react-bootstrap";
+import Link from "next/link";
 
 function SellerLoginPage() {
     return (
@@ -20,7 +21,7 @@ function SellerLoginPage() {
                         LOGIN AS A MODERATOR
                     </Button>
                 </div>
-                <h2 className="seller">Want to join as a seller? <a href="/seller-registration">Register</a></h2>
+                <h2 className="seller">Want to join as a seller? <Link href="/seller-registration">Register</Link></h2>
                 <div><hr></hr></div>
                 <p className="text">Once you are done with the registration, <br></br>Contact one of our agents from below.</p>
                 <p className="contact">011-2883295</p>

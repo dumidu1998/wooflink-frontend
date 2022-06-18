@@ -29,7 +29,7 @@ a {
 }
 
 .heading {
-  font-family: 'Ink Free';
+  font-family: "Ink Free";
   font-weight: 400;
   font-size: 68px;
   line-height: 82px;
@@ -40,7 +40,7 @@ a {
 }
 
 .heading2 {
-  font-family: 'Century Gothic';
+  font-family: "Century Gothic";
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -51,13 +51,13 @@ a {
 }
 
 .form-text {
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-weight: 400;
   font-size: 15px;
 }
 
 .text-box {
-  background-color: #F7F7FA;
+  background-color: #f7f7fa;
   border: 1px solid #000000;
   border-radius: 3px;
   width: 275px;
@@ -73,9 +73,8 @@ a {
 }
 
 .forgot-password {
-  margin-left: 50px;
   margin-top: 1%;
-
+  margin-bottom: 1%;
 }
 
 .btn {
@@ -86,7 +85,7 @@ a {
   /* align-content: center; */
   left: 0px;
   top: 0px;
-  background: #FFD124;
+  background: #ffd124;
   border: 2px solid #000000;
   border-radius: 10px;
 }
@@ -96,13 +95,13 @@ a {
   height: 24px;
   left: 57px;*/
   /*top: 601px;*/
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   /* identical to box height, or 150% */
-  font-feature-settings: 'liga' off, 'calt' off;
+  font-feature-settings: "liga" off, "calt" off;
   /* Text/Gray 100 */
   color: #000000;
 }
@@ -115,13 +114,13 @@ a {
   /* align-content: center; */
   margin-left: 50px;
   margin-bottom: 6px;
-  background: #FFD124;
+  background: #ffd124;
   border: 2px solid #000000;
   border-radius: 10px;
 }
 
 .seller-log-pg {
-  background-color: #FFD124;
+  background-color: #ffd124;
 }
 
 .line {
@@ -138,20 +137,19 @@ a {
   margin-left: 50px;
   margin-top: 6px;
   margin-bottom: 6px;
-  background: #FFD124;
+  background: #ffd124;
   border: 2px solid #000000;
   border-radius: 10px;
 }
 
 .seller {
-
   margin-left: 50px;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  font-feature-settings: 'liga' off, 'calt' off;
+  font-feature-settings: "liga" off, "calt" off;
   color: #000000;
 }
 
@@ -160,35 +158,32 @@ a {
   height: 19px;
   margin-left: 50px;
 
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
-  font-feature-settings: 'liga' off, 'calt' off;
+  font-feature-settings: "liga" off, "calt" off;
   color: #000000;
-
 }
 
 .contact {
   width: 116px;
   height: 24px;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   /* identical to box height, or 120% */
-  font-feature-settings: 'liga' off, 'calt' off;
+  font-feature-settings: "liga" off, "calt" off;
   color: #000000;
   margin-top: 40px;
   margin-left: 236px;
-
 }
 
 .headingReg {
-
-  font-family: 'Ink Free';
+  font-family: "Ink Free";
   font-weight: 400;
   font-size: 55px;
   line-height: 82px;
@@ -196,34 +191,31 @@ a {
   margin-top: 0px;
   color: #000000;
   text-align: center;
-
 }
 
 .text2 {
   width: 111px;
   height: 24px;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
-  font-feature-settings: 'liga' off, 'calt' off;
+  font-feature-settings: "liga" off, "calt" off;
   color: #000000;
-  margin-left: 50px;
-
 }
 
 .btn4 {
   box-sizing: border-box;
   width: 275px;
   height: 40px;
-  background: #FFD124;
+  background: #ffd124;
   border: 2px solid #000000;
   border-radius: 10px;
 }
 
 .text3 {
-  font-family: 'Ink Free';
+  font-family: "Ink Free";
   font-weight: 400;
   font-size: 40px;
   line-height: 82px;
@@ -231,11 +223,10 @@ a {
   margin-top: 0px;
   color: #000000;
   text-align: center;
-
 }
 
 .text5 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 900;
   font-size: 20px;
@@ -243,22 +234,20 @@ a {
   text-align: center;
 
   color: #1e1717;
-
 }
 
 .navbar {
-  background-color: #FFD124;
+  background-color: #ffd124;
   height: 100px;
 }
 
 .text6 {
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   /* identical to box height */
-
 
   color: #000000;
 }

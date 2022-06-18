@@ -1,9 +1,9 @@
 import React from 'react'
+import SellerPlans from '../components/SellerPlans'
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
-import HomePage from '../components/HomePage'
 
-function home() {
+function sellerplans() {
     return (
         <div className={styles.container}>
             <Head>
@@ -11,9 +11,9 @@ function home() {
                 <meta name="description" content="Wooflink" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HomePage />
+            <SellerPlans />
         </div>
     )
 }
 
-export default home
+export default sellerplans

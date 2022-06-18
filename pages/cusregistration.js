@@ -1,9 +1,8 @@
-import React from 'react'
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
-import HomePage from '../components/HomePage'
+import CustomerReg from '../components/CustomerReg'
 
-function home() {
+function cusregistration() {
     return (
         <div className={styles.container}>
             <Head>
@@ -11,9 +10,12 @@ function home() {
                 <meta name="description" content="Wooflink" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HomePage />
+            <div className={styles.mobileFrame}>
+                <CustomerReg />
+            </div>
         </div>
+
     )
 }
 
-export default home
+export default cusregistration
