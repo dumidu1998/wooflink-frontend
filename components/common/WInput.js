@@ -4,7 +4,7 @@ import { Form } from "react-bootstrap";
 
 function WInput(props) {
     return (
-        <Form.Control className={`text-box form-text ${styles.formText} ${styles.textBox}`} type={props.type ?? "text"} placeholder={props.placeholder} />
+        <Form.Control className={`${styles.formText} ${styles.textBox} ${props.className}`} type={props.type ?? "text"} placeholder={props.placeholder} />
     )
 }
 
