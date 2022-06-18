@@ -4,7 +4,6 @@ import WInput from "./common/WInput";
 import { Formik, Form } from "formik";
 import WButton from "./common/WButton";
 
-
 function CustomerReg() {
     return (
         <>
@@ -28,10 +27,9 @@ function CustomerReg() {
                 </Form>
             </Formik>
             <div className="d-grid gap-2">
-                <WButton text="Next" />
+                <WButton text="Next" onClick={() => { }} />
             </div>
         </>
     )
 }
-
 export default CustomerReg;
