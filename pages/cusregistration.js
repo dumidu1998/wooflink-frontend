@@ -12,7 +12,7 @@ function cusregistration() {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
             </div>
-            <div className=''>
+            <div className={styles.mobileFrame}>
                 <CustomerReg />
             </div>
         </>
