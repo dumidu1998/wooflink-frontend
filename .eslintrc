@@ -5,7 +5,6 @@
         "eslint:recommended"
     ],
     "rules": {
-        // "indent": ["error", 2],
         "no-unused-vars": "error",
         "react/no-typos": "error",
         // "react/jsx-indent": ["error", 2],

@@ -13,7 +13,7 @@ function HomePage() {
                 </Navbar>
             </Container>
             <h1 className="heading">Woof-Link</h1>
-            <h2 className="heading2">grooming. boarding. clinic</h2>
+            <h2 className="heading2">Grooming. Boarding. Clinic</h2>
             <h3 className="text6">I&apos;m looking around</h3>
             <Form className="login-form">
                 <WInput placeholder="Center Location" />
