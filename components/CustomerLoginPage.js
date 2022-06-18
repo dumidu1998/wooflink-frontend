@@ -1,6 +1,7 @@
+import { Formik, Form } from "formik";
 import Link from "next/link";
 import React from "react";
-import { Image, Form, Row, Col } from "react-bootstrap";
+import { Image, Row, Col } from "react-bootstrap";
 import FacebookIcon from "../svg/FacebookIcon";
 import WButton from "./common/WButton";
 import WInput from "./common/WInput";
@@ -14,15 +15,25 @@ function Header() {
                 </div>
                 <h1 className="heading">Woof-Link</h1>
                 <h2 className="heading2">Grooming. Boarding. Clinic</h2>
-                <Form className="login-form d-flex flex-column align-items-center">
-                    <WInput placeholder="Email" />
-                    <WInput placeholder="Password" />
-                </Form>
-                <div className="d-flex flex-column align-items-center">
-                    <p className="forgot-password">Forgot Password</p>
-                    <WButton text="Sign In" />
-                    <h2 className="dnthaccount">Don&apos;t have an account? <Link href="/cusregistration">Sign Up</Link></h2>
-                </div>
+                <Formik>
+                    <Form>
+                        <div className="login-form d-flex flex-column align-items-center">
+                            <WInput
+                                placeholder="Email"
+                                type="text"
+                                name="email"
+                            />
+                            <WInput placeholder="Password"
+                                type="text"
+                                name="password" />
+                        </div>
+                        <div className="d-flex flex-column align-items-center">
+                            <p className="forgot-password"> <Link href="#" >Forgot Password?</Link></p>
+                            <WButton text="Sign In" />
+                            <h2 className="dnthaccount">Don&apos;t have an account? <Link href="/cusregistration">Sign Up</Link></h2>
+                        </div>
+                    </Form>
+                </Formik>
                 <Row>
                     <Col><hr /></Col>
                     Or
@@ -41,3 +52,15 @@ function Header() {
 }
 
 export default Header;
+
+ // initialValues={{ email: 'sss', password: '' }}
+                    // validationSchema={Yup.object({
+                    //     email: Yup.string()
+                    //         .email('Invalid email address')
+                    //         .required('Required'),
+                    //     password: Yup.string()
+                    //         .required('Required')
+                    // // })}
+                    // onSubmit={(values) => {
+                    //     alert(JSON.stringify(values, null, 2));
+                    // }}
