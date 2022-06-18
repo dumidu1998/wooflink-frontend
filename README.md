@@ -1,4 +1,4 @@
-## WoofLink Fronend
+## WoofLink Frontend
 
 ## Getting Started
 
