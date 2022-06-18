@@ -1,6 +1,7 @@
 import React from "react";
-import { Image, Form, Button } from "react-bootstrap";
+import { Image, Button } from "react-bootstrap";
 import WInput from "./common/WInput";
+import { Formik, Form } from "formik";
 
 
 function CustomerReg() {
@@ -13,11 +14,13 @@ function CustomerReg() {
                 <h1 className="headingReg">Registration</h1>
             </div>
             <p className="text2">Personal Information</p>
-            <Form className="login-form d-flex flex-column align-items-center">
-                <WInput placeholder="First Name" />
-                <WInput placeholder="Last Name" />
-                <WInput placeholder="Contact Number" />
-            </Form>
+            <Formik>
+                <Form className="login-form d-flex flex-column align-items-center">
+                    <WInput placeholder="First Name" />
+                    <WInput placeholder="Last Name" />
+                    <WInput placeholder="Contact Number" />
+                </Form>
+            </Formik>
             <p className="text2">Address</p>
             <Form className="login-form">
                 <Form.Control className="text-box form-text" type="text" placeholder="Street" />
