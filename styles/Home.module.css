@@ -121,7 +121,12 @@
     background-color: rgb(41, 109, 41);
   }
 }
-
+.mobileFrame {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
 .logo {
   height: 1em;
   margin-left: 0.5rem;
