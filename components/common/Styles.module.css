@@ -1,0 +1,19 @@
+.btn {
+    box-sizing: border-box;
+    height: 5vh;
+    width: 33vh;
+    align-content: center;
+    margin-left: 50px;
+    left: 0px;
+    top: 0px;
+    background: #FFD124;
+    border: 2px solid #000000;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+
+  .btn:hover{
+    background: #FFF124;
+    color: #000000;
+  }

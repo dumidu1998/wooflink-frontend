@@ -14,3 +14,254 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* .cus-log-pg {
+  background-color: #F5F5F5;
+} */
+
+.login-img-sec {
+  margin: 103px 100px 0px;
+}
+
+.login-image {
+  height: 90px;
+  width: 210px;
+}
+
+.heading {
+  font-family: 'Ink Free';
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 82px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #000000;
+  text-align: center;
+}
+
+.heading2 {
+  font-family: 'Century Gothic';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  color: #000000;
+  text-align: center;
+}
+
+.form-text {
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.text-box {
+  background-color: #F7F7FA;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  width: 275px;
+  padding-top: 16px;
+  padding-left: 6px;
+  padding-bottom: 16px;
+  margin-bottom: 14px;
+}
+
+.login-form {
+  margin: 30px auto 0px;
+  text-align: center;
+}
+
+.forgot-password {
+  margin-left: 50px;
+  margin-top: 1%;
+
+}
+
+.btn {
+  box-sizing: border-box;
+
+  height: 5vh;
+  width: 33vh;
+  /* align-content: center; */
+  margin-left: 50px;
+  left: 0px;
+  top: 0px;
+  background: #FFD124;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.dnthaccount {
+
+  /*width: 166px;
+  height: 24px;
+  left: 57px;*/
+  /*top: 601px;*/
+  margin-left: 50px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  font-feature-settings: 'liga' off, 'calt' off;
+  /* Text/Gray 100 */
+  color: #000000;
+}
+
+.btn2 {
+  box-sizing: border-box;
+
+  height: 5vh;
+  width: 33vh;
+  /* align-content: center; */
+  margin-left: 50px;
+  margin-bottom: 6px;
+  background: #FFD124;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.seller-log-pg {
+  background-color: #FFD124;
+}
+
+.line {
+  display: inline-flex;
+}
+
+.btn3 {
+  box-sizing: border-box;
+  /*height: 5vh;
+  width: 33vh;*/
+  width: 275px;
+  height: 40px;
+  /* align-content: center; */
+  margin-left: 50px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  background: #FFD124;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.seller {
+
+  margin-left: 50px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: 'liga' off, 'calt' off;
+  color: #000000;
+}
+
+.text {
+  width: 216px;
+  height: 19px;
+  margin-left: 50px;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  font-feature-settings: 'liga' off, 'calt' off;
+  color: #000000;
+
+}
+
+.contact {
+  width: 116px;
+  height: 24px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  font-feature-settings: 'liga' off, 'calt' off;
+  color: #000000;
+  margin-top: 40px;
+  margin-left: 236px;
+
+}
+
+.headingReg {
+
+  font-family: 'Ink Free';
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 82px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #000000;
+  text-align: center;
+
+}
+
+.text2 {
+  width: 111px;
+  height: 24px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  font-feature-settings: 'liga' off, 'calt' off;
+  color: #000000;
+  margin-left: 50px;
+
+}
+
+.btn4 {
+  box-sizing: border-box;
+  width: 275px;
+  height: 40px;
+  background: #FFD124;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.text3 {
+  font-family: 'Ink Free';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 82px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #000000;
+  text-align: center;
+
+}
+
+.text5 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #1e1717;
+
+}
+
+.navbar {
+  background-color: #FFD124;
+  height: 100px;
+}
+
+.text6 {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
