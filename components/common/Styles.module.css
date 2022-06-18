@@ -3,7 +3,6 @@
     height: 5vh;
     width: 33vh;
     align-content: center;
-    margin-left: 50px;
     left: 0px;
     top: 0px;
     background: #FFD124;
@@ -16,4 +15,21 @@
   .btn:hover{
     background: #FFF124;
     color: #000000;
+  }
+
+  .formText {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .textBox {
+    background-color: #F7F7FA;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    width: 275px;
+    padding-top: 16px;
+    padding-left: 6px;
+    padding-bottom: 16px;
+    margin-bottom: 14px;
   }
