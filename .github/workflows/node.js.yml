@@ -8,8 +8,6 @@ on:
         types: [ opened, edited, synchronize ]
         paths-ignore:
             - '**.md'
-  push:
-
 jobs:
   build:
 
