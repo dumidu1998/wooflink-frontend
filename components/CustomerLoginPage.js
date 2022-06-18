@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { Image, Form, Row, Col } from "react-bootstrap";
 import FacebookIcon from "../svg/FacebookIcon";
@@ -20,7 +21,7 @@ function Header() {
                 <div className="d-flex flex-column align-items-center">
                     <p className="forgot-password">Forgot Password</p>
                     <WButton text="Sign In" />
-                    <h2 className="dnthaccount">Don&apos;t have an account? <a href="/customer-registration">Sign Up</a></h2>
+                    <h2 className="dnthaccount">Don&apos;t have an account? <Link href="/customer-registration">Sign Up</Link></h2>
                 </div>
                 <Row>
                     <Col><hr /></Col>
@@ -32,7 +33,7 @@ function Header() {
                     <WButton text=" SignUp using Google" icon={<FacebookIcon />} />
                     <WButton text="SignUp using Intagram" />
                     <WButton text="SignUp using Facebook" />
-                    <h2 className="dnthaccount">Are you a provider? <a href="/seller-login">Click here</a></h2>
+                    <h2 className="dnthaccount">Are you a provider? <Link href="/sellerlogin">Click here</Link></h2>
                 </div>
             </div >
         </>
