@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Styles.module.css'
+
 function WButton(props) {
     return (
         <button className={styles.btn} variant={props.variant} size={props.size ?? 'lg'} type={props.type ?? 'submit'}>

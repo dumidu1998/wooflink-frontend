@@ -1,20 +1,18 @@
 import React from "react";
-import { Image, Button } from "react-bootstrap";
-import LoginImage from '../images/LoginGroup.png';
+import { Image } from "react-bootstrap";
+import WButton from "./common/WButton";
 
 function SellerPlans() {
     return (
         <>
             <div>
                 <div className="login-img-sec">
-                    <Image className="login-image" src={LoginImage} alt="LoginImage" />
+                    <Image className="login-image" src='/images/LoginGroup.png' alt="LoginImage" />
                 </div>
                 <h1 className="text5">View Payment Plans</h1>
             </div>
-            <div className="d-grid gap-2">
-                <Button className="btn1" variant="primary" size="lg">
-                    Register
-                </Button>
+            <div className="d-flex ">
+                <WButton text="Register" />
             </div>
         </>
     )
