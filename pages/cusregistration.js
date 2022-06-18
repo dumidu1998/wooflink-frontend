@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
-
-function sample() {
+import CustomerReg from '../components/CustomerReg'
+function cusregistration() {
     return (
         <>
             <div className={styles.container}>
@@ -12,8 +12,11 @@ function sample() {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
             </div>
+            <div className=''>
+                <CustomerReg />
+            </div>
         </>
     )
 }
 
-export default sample
+export default cusregistration

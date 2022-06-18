@@ -1,22 +1,22 @@
 import React from "react";
 import { Image, Form, Button } from "react-bootstrap";
-import LoginImage from '../images/LoginGroup.png';
+import WInput from "./common/WInput";
 
 
 function CustomerReg() {
     return (
         <>
-            <div>
+            <div className="d-flex flex-column align-items-center">
                 <div className="login-img-sec">
-                    <Image className="login-image" src={LoginImage} alt="LoginImage" />
+                    <Image className="login-image" src='/images/LoginGroup.png' alt="LoginImage" />
                 </div>
                 <h1 className="headingReg">Registration</h1>
             </div>
             <p className="text2">Personal Information</p>
-            <Form className="login-form">
-                <Form.Control className="text-box form-text" type="text" placeholder="First Name" />
-                <Form.Control className="text-box form-text" type="text" placeholder="Last Name" />
-                <Form.Control className="text-box form-text" type="text" placeholder="Contact Number" />
+            <Form className="login-form d-flex flex-column align-items-center">
+                <WInput placeholder="First Name" />
+                <WInput placeholder="Last Name" />
+                <WInput placeholder="Contact Number" />
             </Form>
             <p className="text2">Address</p>
             <Form className="login-form">

@@ -21,7 +21,7 @@ function Header() {
                 <div className="d-flex flex-column align-items-center">
                     <p className="forgot-password">Forgot Password</p>
                     <WButton text="Sign In" />
-                    <h2 className="dnthaccount">Don&apos;t have an account? <Link href="/customer-registration">Sign Up</Link></h2>
+                    <h2 className="dnthaccount">Don&apos;t have an account? <Link href="/cusregistration">Sign Up</Link></h2>
                 </div>
                 <Row>
                     <Col><hr /></Col>
