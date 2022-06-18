@@ -18,7 +18,7 @@ function HomePage() {
             <h3 className="text6">I&apos;m looking around</h3>
             <Formik>
                 <Form className="login-form">
-                    <WInput placeholder="Center Location" />
+                    <WInput placeholder="Center Location" name="location" />
                 </Form>
             </Formik>
         </>
