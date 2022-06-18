@@ -6,7 +6,7 @@ function sample() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Wooflink</title>
+                <title>Wooflink1</title>
                 <meta name="description" content="Wooflink" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
