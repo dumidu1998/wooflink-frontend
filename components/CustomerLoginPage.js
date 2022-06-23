@@ -9,7 +9,7 @@ import WInput from "./common/WInput";
 function Header() {
     return (
         <>
-            <div className="cus-log-pg">
+            <div className="cus-log-pg d-flex flex-column align-items-center">
                 <div className="login-img-sec">
                     <Image className="login-image" src="/images/LoginGroup.png" alt="LoginImage" />
                 </div>
