@@ -1,6 +1,5 @@
 import React from "react";
 import { Image, Row, Col } from "react-bootstrap";
-import imga from '../images/imga.png';
 import Link from "next/link";
 import WButton from "./common/WButton";
 import WInput from "./common/WInput";
@@ -12,7 +11,7 @@ function SellerLoginPage() {
         <>
             <div className="cus-log-pg d-flex flex-column align-items-center">
             <div className="login-img-sec">
-                    <Image className="login-image" src="/images/LoginGroup.png" alt="LoginImage" />
+                    <Image className="login-image" src="/images/imga.png" alt="LoginImage" />
                 </div>
                 <h1 className="heading">Woof-Link</h1>
                 <h2 className="heading2">grooming. boarding. clinic</h2>

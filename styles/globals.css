@@ -307,3 +307,21 @@ a {
   margin-left: 236px;
   padding-bottom: 100px;
 }
+.eclipse-1{
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 177px;
+  top: 296px;
+  background: #94EB38;
+}
+
+.eclipse-3 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 203px;
+  top: 296px;
+  
+  background: #FFFFFF;
+}
