@@ -4,7 +4,10 @@ import React from 'react'
 
 function Grooming() {
   return (
-    <div>Grooming</div>
+    <div className="grey-bg d-flex flex-column align-items-center">
+      <h1 className='textboarding'>FIND A BOARDING</h1>
+
+    </div>
   )
 }
 
