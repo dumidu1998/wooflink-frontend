@@ -37,8 +37,18 @@ a {
   font-weight: 400;
   font-size: 68px;
   line-height: 82px;
+  margin-top: 0px;
   margin-bottom: 0px;
+  color: #ffd124;
+  text-align: center;
+}
+.heading10 {
+  font-family: "Ink Free";
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 82px;
   margin-top: 100px;
+  margin-bottom: 0px;
   color: #ffd124;
   text-align: center;
 }
@@ -369,5 +379,36 @@ height: 41px;
   width: 97px;
   height: 41px;
   left: 300px;
+  }
+
+  .groombtn{
+    /* position: absolute; */
+    width: 97px;
+    margin-left: 10px;
+    height: 41px;
+    /* left: 40px; */
+    margin-top: 10px;
+    background: #FFCE31;
+    border-radius: 20px;
+  }
+  .boardingbtn{
+    /* position: absolute; */
+    width: 97px;
+    height: 41px;
+    margin-left: 10px;
+    /* left: 150px; */
+    /* top: 390px; */
+    background: #FFCE31;
+    border-radius: 20px;
+  }
+  .clinicbtn{
+    /* position: absolute; */
+    width: 97px;
+    height: 41px;
+    margin-left: 10px;
+    /* left: 260px; */
+    /* top: 390px; */
+    background: #FFCE31;
+    border-radius: 20px;
   }
 
