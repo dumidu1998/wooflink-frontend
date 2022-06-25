@@ -7,13 +7,13 @@ function sellerlogin() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Wooflink</title>
+                <title>Wooflink | Seller Login</title>
                 <meta name="description" content="Wooflink" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <SellerLoginPage />
+            <SellerLoginPage/>
+
         </div>
     )
 }
-
 export default sellerlogin

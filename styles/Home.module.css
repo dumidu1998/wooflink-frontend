@@ -138,3 +138,12 @@
     flex-direction: column;
   }
 }
+.img {
+  width: 252px;
+  height: 208px;
+  margin-left: 72px;
+  margin-top: 72px;
+}
+.yellow-bg {
+  background-color: #FFD124;
+}

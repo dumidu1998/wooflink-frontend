@@ -27,6 +27,10 @@ a {
   height: 90px;
   width: 210px;
 }
+.login-image2 {
+  width: 162px;
+  height: 118px;
+}
 
 .heading {
   font-family: "Ink Free";
@@ -35,7 +39,7 @@ a {
   line-height: 82px;
   margin-bottom: 0px;
   margin-top: 0px;
-  color: #000000;
+  color: #ffd124;
   text-align: center;
 }
 
@@ -250,4 +254,81 @@ a {
   /* identical to box height */
 
   color: #000000;
+}
+.yellow-bg {
+  background-color: #FFD124;
+}
+.grey-bg {
+  background-color: #FAF3F3;
+}
+.imga {
+  width: 162px;
+  height: 118px;
+  margin-left: 72px;
+  margin-top: 72px;
+
+}
+.seller {
+
+  margin-left: 50px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: 'liga' off, 'calt' off;
+  color: #000000;
+}
+
+.line2 {
+  margin-left: 4vh;
+  margin-right: 4vh;
+}
+
+.text {
+  width: 216px;
+  height: 19px;
+  margin-left: 50px;
+
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  font-feature-settings: 'liga' off, 'calt' off;
+  color: #000000;
+}
+
+.contact {
+  width: 116px;
+  height: 24px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  font-feature-settings: 'liga' off, 'calt' off;
+  color: #000000;
+  margin-top: 40px;
+  margin-left: 236px;
+  padding-bottom: 100px;
+}
+.eclipse-1{
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 177px;
+  top: 296px;
+  background: #94EB38;
+}
+
+.eclipse-3 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 203px;
+  top: 296px;
+  
+  background: #FFFFFF;
 }

@@ -1,29 +1,39 @@
+import { Formik, Form } from "formik";
 import React from "react";
-import { Image, Form, Button } from "react-bootstrap";
-import LoginImage from '../images/LoginGroup.png';
+import { Image} from "react-bootstrap";
+import WButton from "./common/WButton";
+import WInput from "./common/WInput";
 function Header() {
-    return (
-        <>
-            <div>
-                <div className="login-img-sec">
-                    <Image className="login-image" src={LoginImage} alt="LoginImage" />
-                </div>
-                <h1 className="text3">Apply for a center</h1>
+  return (
+    <>
+      <div className="grey-bg d-flex flex-column align-items-center">
+        <div className="login-img-sec">
+          <Image
+            className="login-image"
+            src="/images/LoginGroup.png"
+            alt="LoginImage"
+          />
+        </div>
+        <h1 className="text3">Apply for a center</h1>
+
+        <Formik>
+          <Form className="login-form d-flex flex-column align-items-center">
+            <WInput
+              placeholder="Center Location"
+              type="text"
+              name="centerlocation"
+            />
+            <dev className="mt-2">
+              <p>SPACE RESERVED FOR GOOGLE MAPS API</p>
+            </dev>
+
+            <div className="d-grid gap-4">
+              <WButton text="NEXT" />
             </div>
-            <Form className="login-form">
-                <Form.Control className="text-box form-text" type="text" placeholder="Center Location" />
-
-            </Form>
-            <div className="d-grid gap-2">
-
-                <Button className="btn4" variant="primary" size="lg" href="/seller-registration3" >
-                    NEXT
-                </Button>
-            </div>
-
-
-        </>
-    )
+          </Form>
+        </Formik>
+      </div>
+    </>
+  );
 }
-
 export default Header;

@@ -1,42 +1,34 @@
+
 import React from "react";
-import { Image, Form, Button, InputGroup } from "react-bootstrap";
-import LoginImage from '../images/LoginGroup.png';
+import { Formik, Form } from "formik";
+import { Image } from "react-bootstrap";
+import WButton from "./common/WButton";
+import WInput from "./common/WInput";
+
 
 function SellerRegistration3() {
     return (
         <>
-            <div>
+        <div className="grey-bg d-flex flex-column align-items-center">
                 <div className="login-img-sec">
-                    <Image className="login-image" src={LoginImage} alt="LoginImage" />
+                    <Image className="login-image" src='/images/LoginGroup.png' alt="LoginImage" />
                 </div>
-                <h1 className="text3">Apply for a center</h1>
-            </div>
-            <InputGroup className="mb-3">
-                <InputGroup.Checkbox aria-label="Checkbox for following text input" />
-                <Form.Control aria-label="Text input with checkbox" />
-            </InputGroup>
-            <InputGroup className="mb-3">
-                <InputGroup.Checkbox aria-label="Checkbox for following text input" />
-                <Form.Control aria-label="Text input with checkbox" />
-            </InputGroup>
-            <InputGroup className="mb-3">
-                <InputGroup.Checkbox aria-label="Checkbox for following text input" />
-                <Form.Control aria-label="Text input with checkbox" />
-            </InputGroup>
-            <p className="text2">Login Details</p>
-            <Form className="login-form">
-                <Form.Control className="text-box form-text" type="text" placeholder="Center Email" />
-                <Form.Control className="text-box form-text" type="text" placeholder="Password" />
-                <Form.Control className="text-box form-text" type="text" placeholder="Confirm Password" />
+                <h1 className="headingReg">Center Login Details</h1>
+
+
+            <Formik>
+                 <Form className="login-form d-flex flex-column align-items-center">
+                 <p className="text2">Login Information</p>
+                    <WInput placeholder="Center Email" name="centeremail" />
+                    <WInput placeholder="Center Password" name="centerpassword" />
+                    <WInput placeholder="Confirm Password" name="centerconfirmpass" />
             </Form>
+            </Formik>
             <div className="d-grid gap-2">
-
-                <Button className="btn4" variant="primary" size="lg" href="/seller-plans" >
-                    NEXT
-                </Button>
+            <WButton text="REGISTER" onClick={() => { }} />
             </div>
-
-        </>
+            </div>
+            </>
     )
 }
 
