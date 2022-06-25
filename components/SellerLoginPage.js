@@ -1,32 +1,58 @@
 import React from "react";
-import { Form, Button } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import Link from "next/link";
+import { Formik, Form } from "formik";
+import WButton from "./common/WButton";
+import WInput from "./common/WInput";
 
 function SellerLoginPage() {
-    return (
-        <>
-            <div >
-                <Form className="login-form">
-                    <Form.Control className="text-box form-text" type="text" placeholder="Email" />
-                    <Form.Control className="text-box form-text" type="text" placeholder="Password" />
-                </Form>
+  return (
+    <>
+      <div className="grey-bg d-flex flex-column align-items-center">
+        <div className="login-img-sec">
+          <Image className="login-image2" src="/images/imga.png" alt="img" />
+        </div>
 
-                <p className="forgot-password">Forgot Password?</p>
-                <div className="d-grid gap-2">
+        <h1 className="heading">Woof-Link</h1>
+        <h2 className="heading2">grooming. boarding. clinic</h2>
 
-                    <Button className="btn3" variant="primary" size="lg">
-                        LOGIN AS A PROVIDER
-                    </Button>
-                    <Button className="btn3" variant="primary" size="lg">
-                        LOGIN AS A MODERATOR
-                    </Button>
-                </div>
-                <h2 className="seller">Want to join as a seller? <Link href="/seller-registration">Register</Link></h2>
-                <div><hr></hr></div>
-                <p className="text">Once you are done with the registration, <br></br>Contact one of our agents from below.</p>
-                <p className="contact">011-2883295</p>
+        <Formik>
+          <Form>
+            <div className="login-form d-flex flex-column align-items-center">
+              <WInput placeholder="Email" type="text" name="selleremail" />
+
+              <WInput
+                placeholder="Password"
+                type="password"
+                name="sellerpass"
+              />
             </div>
-        </>
-    )
+
+            <div className="d-flex flex-column align-items-center">
+              <dev className="mt-2">
+                <p className="forgot-password">
+                  {" "}
+                  <Link href="#">Forgot Password?</Link>
+                </p>
+              </dev>
+            </div>
+            <dev className="login-form d-flex flex-column align-items-center">
+              <dev className="mt-1">
+                <WButton text="LOGIN AS CENTER" />
+              </dev>
+              <dev className="mt-2">
+                <WButton text="LOGIN AS MODERATOR" />
+              </dev>
+            </dev>
+
+            <h2 className="seller mt-2">
+              Want to join as a seller?{" "}
+              <Link href="/seller-registration">Register</Link>
+            </h2>
+          </Form>
+        </Formik>
+      </div>
+    </>
+  );
 }
 export default SellerLoginPage;

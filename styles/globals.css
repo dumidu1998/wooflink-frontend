@@ -27,6 +27,10 @@ a {
   height: 90px;
   width: 210px;
 }
+.login-image2 {
+  width: 162px;
+  height: 118px;
+}
 
 .heading {
   font-family: "Ink Free";
@@ -258,8 +262,8 @@ a {
   background-color: #FAF3F3;
 }
 .imga {
-  width: 252px;
-  height: 208px;
+  width: 162px;
+  height: 118px;
   margin-left: 72px;
   margin-top: 72px;
 
