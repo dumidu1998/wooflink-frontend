@@ -31,9 +31,9 @@ function HomePage() {
               src="/images/clinicimage.png"
               alt="clinic"
             /> */} 
-            <input class="groombtn" type="button" value="Grooming"></input>
-            <input class="boardingbtn" type="button" value="Boarding"></input>
-            <input class="clinicbtn" type="button" value="Clinic"></input>
+            <input className="groombtn" type="button" value="Grooming"></input>
+            <input className="boardingbtn" type="button" value="Boarding"></input>
+            <input className="clinicbtn" type="button" value="Clinic"></input>
           </Form>
         </Formik>
       </div>
