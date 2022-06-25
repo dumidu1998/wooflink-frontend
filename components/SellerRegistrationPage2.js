@@ -20,10 +20,7 @@ function Header() {
                     NEXT
                 </Button>
             </div>
-
-
         </>
     )
 }
-
 export default Header;

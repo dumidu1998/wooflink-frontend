@@ -35,7 +35,7 @@ a {
   line-height: 82px;
   margin-bottom: 0px;
   margin-top: 0px;
-  color: #000000;
+  color: #ffd124;
   text-align: center;
 }
 
@@ -253,6 +253,9 @@ a {
 }
 .yellow-bg {
   background-color: #FFD124;
+}
+.grey-bg {
+  background-color: #FAF3F3;
 }
 .imga {
   width: 252px;
