@@ -1,39 +1,49 @@
+import { Formik, Form } from "formik";
 import React from "react";
-import { Image, Form, Button } from "react-bootstrap";
-import LoginImage from '../images/LoginGroup.png';
-
+import { Image } from "react-bootstrap";
+import WButton from "./common/WButton";
+import WInput from "./common/WInput";
 
 function SellerRegistration() {
-    return (
-        <>
-            <div>
-                <div className="login-img-sec">
-                    <Image className="login-image" src={LoginImage} alt="LoginImage" />
-                </div>
-                <h1 className="text3">Apply for a center</h1>
-            </div>
+  return (
+    <>
+      <div className="grey-bg d-flex flex-column align-items-center">
+        <div className="login-img-sec">
+          <Image
+            className="login-image"
+            src="/images/LoginGroup.png"
+            alt="LoginImage"
+          />
+        </div>
+
+        <h1 className="text3">Apply for a center</h1>
+
+        <Formik>
+          <Form className="login-form d-flex flex-column align-items-center">
             <p className="text2">Center Details</p>
-            <Form className="login-form">
-                <Form.Control className="text-box form-text" type="text" placeholder="Center Name" />
-                <Form.Control className="text-box form-text" type="text" placeholder="Center Contact Number" />
-                <Form.Control className="text-box form-text" type="text" placeholder="Center Operator Phone" />
-            </Form>
-            <p className="text2">Center Location</p>
-            <Form className="login-form">
-                <Form.Control className="text-box form-text" type="text" placeholder="Street" />
-                <Form.Control className="text-box form-text" type="text" placeholder="City" />
-                <Form.Control className="text-box form-text" type="text" placeholder="District" />
-            </Form>
-            <div className="d-grid gap-2">
 
-                <Button className="btn4" variant="primary" size="lg" href="/seller-registration2" >
-                    NEXT
-                </Button>
+            <WInput placeholder="Center Name" type="text" name="selleremail" />
+            <WInput
+              placeholder="Center Contact Number"
+              type="text"
+              name="selleremail"
+            />
+            <div className="mt-2">
+              <p className="text2">Center Location</p>
             </div>
 
+            <WInput placeholder="Center Name" type="text" name="Street" />
+            <WInput placeholder="Center Name" type="text" name="City" />
+            <WInput placeholder="Center Name" type="text" name="District" />
 
-        </>
-    )
+            <div className="d-grid gap-2">
+              <WButton text="NEXT" />
+            </div>
+          </Form>
+        </Formik>
+      </div>
+    </>
+  );
 }
 
 export default SellerRegistration;
