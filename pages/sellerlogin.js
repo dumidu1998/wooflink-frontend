@@ -17,5 +17,4 @@ function sellerlogin() {
         </div>
     )
 }
-
 export default sellerlogin

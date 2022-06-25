@@ -12,7 +12,6 @@ function CustomerReg() {
                     <Image className="login-image" src='/images/LoginGroup.png' alt="LoginImage" />
                 </div>
                 <h1 className="headingReg">Registration</h1>
-       
             <Formik>
                 <Form className="login-form d-flex flex-column align-items-center">
                     <p className="text2">Personal Information</p>
