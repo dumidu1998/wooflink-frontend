@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
+import SellerRegistrationPage2 from '../components/SellerRegistrationPage2'
 
 function sellerregistration1() {
     return (
@@ -12,6 +13,7 @@ function sellerregistration1() {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
             </div>
+            <SellerRegistrationPage2/>
         </>
     )
 }
