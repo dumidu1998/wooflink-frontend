@@ -332,3 +332,19 @@ a {
   
   background: #FFFFFF;
 }
+
+.around{
+  position: absolute;
+  width: 117.93px;
+  height: 18.38px;
+  left: 19px;
+  top: 239.89px;
+  margin-left: 610px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+/* identical to box height */
+  color: #000000;
+}

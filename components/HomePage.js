@@ -1,27 +1,26 @@
 import React from "react";
-import { Container, Navbar } from "react-bootstrap";
+import { Image} from "react-bootstrap";
 import WInput from "./common/WInput";
 import { Formik, Form } from "formik";
 
 function HomePage() {
     return (
         <>
-            <Container className="navbar">
-                <Navbar expand="lg" variant="light" bg="light">
-                    <Container>
-                        <Navbar.Brand href="##">60,000</Navbar.Brand>
-                    </Container>
-                </Navbar>
-            </Container>
+        <div className="d-flex flex-column align-items-center">
             <h1 className="heading">Woof-Link</h1>
             <h2 className="heading2">Grooming. Boarding. Clinic</h2>
-            <h3 className="text6">I&apos;m looking around</h3>
+            
             <Formik>
-                <Form className="login-form">
+                <Form className="login-form d-flex flex-column align-items-center">
+
+                    <h3 className="text6">I&apos;m looking around</h3>
+
                     <WInput placeholder="Center Location" name="location" />
                 </Form>
             </Formik>
+            </div>
         </>
+        
     )
 }
 
