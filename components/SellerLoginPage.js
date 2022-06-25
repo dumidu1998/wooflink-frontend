@@ -1,47 +1,30 @@
 import React from "react";
-import { Image, Row, Col } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap";
 import Link from "next/link";
-import WButton from "./common/WButton";
-import WInput from "./common/WInput";
-import { Formik, Form } from "formik";
-
 
 function SellerLoginPage() {
     return (
         <>
-            <div className="cus-log-pg d-flex flex-column align-items-center">
-            <div className="login-img-sec">
-                    <Image className="login-image" src="/images/imga.png" alt="LoginImage" />
-                </div>
-                <h1 className="heading">Woof-Link</h1>
-                <h2 className="heading2">grooming. boarding. clinic</h2>
-            <Formik>
-                    <Form>
-                        <div className="login-form d-flex flex-column align-items-center">
-                                <WInput
-                                placeholder="Email"
-                                type="text"
-                                name="email"
-                            />
-                            <WInput placeholder="Password"
-                                type="text"
-                                name="password" />
-                        </div>
+            <div >
+                <Form className="login-form">
+                    <Form.Control className="text-box form-text" type="text" placeholder="Email" />
+                    <Form.Control className="text-box form-text" type="text" placeholder="Password" />
+                </Form>
 
-                        <div className="d-flex d-grid gap-2 flex-column align-items-center">
-                            <p className="forgot-password"> <Link href="#" >Forgot Password?</Link></p>
-                            <WButton text="LOGIN AS A PROVIDER" />
-                        <Row>
-                            <Col><hr /></Col>
-                            Or
-                            <Col><hr /></Col>
-                        </Row>
-                            <WButton text="LOGIN AS A MODERATOR"/>
-                        </div>
-                        </Form>
-                </Formik>
-                <h2 className="seller">Want to join as a seller? <a href="/seller-registration">Register</a></h2>
-                <div className="line2"></div> <hr/>
+                <p className="forgot-password">Forgot Password?</p>
+                <div className="d-grid gap-2">
+
+                    <Button className="btn3" variant="primary" size="lg">
+                        LOGIN AS A PROVIDER
+                    </Button>
+                    <Button className="btn3" variant="primary" size="lg">
+                        LOGIN AS A MODERATOR
+                    </Button>
+                </div>
+                <h2 className="seller">Want to join as a seller? <Link href="/seller-registration">Register</Link></h2>
+                <div><hr></hr></div>
+                <p className="text">Once you are done with the registration, <br></br>Contact one of our agents from below.</p>
+                <p className="contact">011-2883295</p>
             </div>
         </>
     )

@@ -7,7 +7,7 @@ import WButton from "./common/WButton";
 function CustomerReg() {
     return (
         <>
-            <div className="yellow-bg d-flex flex-column align-items-center">
+            <div className="grey-bg d-flex flex-column align-items-center">
                 <div className="login-img-sec">
                     <Image className="login-image" src='/images/LoginGroup.png' alt="LoginImage" />
                 </div>
@@ -25,7 +25,7 @@ function CustomerReg() {
                     <WInput placeholder="District" name="district" />
 
                     <div className="d-grid gap-2">
-                <WButton text="Next" onClick={() => { }} />
+                <WButton text="NEXT" onClick={() => { }} />
                     </div>
                 </Form>
             </Formik>

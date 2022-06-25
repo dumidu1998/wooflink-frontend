@@ -9,7 +9,7 @@ import WInput from "./common/WInput";
 function CustomerRegPage2() {
     return (
         <>
-        <div className="yellow-bg d-flex flex-column align-items-center">
+        <div className="grey-bg d-flex flex-column align-items-center">
                 <div className="login-img-sec">
                     <Image className="login-image" src='/images/LoginGroup.png' alt="LoginImage" />
                 </div>
@@ -25,7 +25,7 @@ function CustomerRegPage2() {
             </Form>
             </Formik>
             <div className="d-grid gap-2">
-            <WButton text="Register" onClick={() => { }} />
+            <WButton text="REGISTER" onClick={() => { }} />
             </div>
             </div>
             </>

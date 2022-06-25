@@ -10,9 +10,7 @@ function cusregistration() {
                 <meta name="description" content="Wooflink" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className={styles.mobileFrame}>
                 <CustomerReg />
-            </div>
         </div>
 
     )
