@@ -4,6 +4,8 @@ import Link from "next/link";
 import { Formik, Form } from "formik";
 import WButton from "./common/WButton";
 import WInput from "./common/WInput";
+import AdminIcon from "../svg/AdminIcon";
+import CenterIcon from "../svg/CenterIcon";
 
 function SellerLoginPage() {
   return (
@@ -38,10 +40,10 @@ function SellerLoginPage() {
             </div>
             <dev className="login-form d-flex flex-column align-items-center">
               <dev className="mt-1">
-                <WButton text="LOGIN AS CENTER" />
+                <WButton text="LOGIN AS CENTER" icon={<CenterIcon />}/>
               </dev>
               <dev className="mt-2">
-                <WButton text="LOGIN AS MODERATOR" />
+                <WButton text="LOGIN AS MODERATOR"  icon={<AdminIcon />} />
               </dev>
             </dev>
 
