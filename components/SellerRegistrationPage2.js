@@ -1,6 +1,6 @@
 import { Formik, Form } from "formik";
 import React from "react";
-import { Image, Button } from "react-bootstrap";
+import { Image} from "react-bootstrap";
 import WButton from "./common/WButton";
 import WInput from "./common/WInput";
 function Header() {
