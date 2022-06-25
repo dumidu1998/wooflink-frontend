@@ -11,8 +11,10 @@ function home() {
                 <meta name="description" content="Wooflink" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HomePage />
-        </div>
+            <HomePage /> 
+            
+            </div>
+
     )
 }
 
