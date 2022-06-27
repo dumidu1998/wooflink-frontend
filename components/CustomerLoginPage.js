@@ -1,7 +1,7 @@
 import { Formik, Form } from "formik";
 import Link from "next/link";
 import React from "react";
-import { Image} from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import WButton from "./common/WButton";
 import WInput from "./common/WInput";
 
@@ -15,6 +15,10 @@ function Header() {
                 <h1 className="heading">Woof-Link</h1>
                 <h2 className="heading2">Grooming. Boarding. Clinic</h2>
                 <Formik
+                    initialValues={{
+                        email: "",
+                        password: ""
+                    }}
                     onSubmit={() => { }}
                 >
                     <Form>
@@ -30,15 +34,15 @@ function Header() {
                         </div>
                         <div className="d-flex flex-column align-items-center">
                             <dev className='mt-2'>
-                            <p className="forgot-password"> <Link href="#" >Forgot Password?</Link></p>
-                            </dev>
-          
-                            <dev className='mt-2'>
-                            <WButton text="Sign In" />
+                                <p className="forgot-password"> <Link href="#" >Forgot Password?</Link></p>
                             </dev>
 
-                            <dev className='mt-4'> 
-                            <h2 className="dnthaccount">Don&apos;t have an account? <Link href="/cusregistration">Sign Up</Link></h2>
+                            <dev className='mt-2'>
+                                <WButton text="Sign In" />
+                            </dev>
+
+                            <dev className='mt-4'>
+                                <h2 className="dnthaccount">Don&apos;t have an account? <Link href="/cusregistration">Sign Up</Link></h2>
                             </dev>
                         </div>
                     </Form>
