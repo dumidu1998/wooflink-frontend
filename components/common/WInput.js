@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Styles.module.css'
 import { useField } from "formik";
 
-function WInputi(props) {
+function WInput(props) {
     const [field, meta] = useField(props.name)
     return (
         <>
@@ -21,4 +21,4 @@ function WInputi(props) {
 
 }
 
-export default WInputi
+export default WInput
