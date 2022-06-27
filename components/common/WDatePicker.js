@@ -1,14 +1,19 @@
-import React, { useMemo } from 'react'
+import React, { useEffect, useState } from 'react'
 import ReactDatePicker from 'react-datepicker'
 import styles from './Styles.module.css'
 import 'react-datepicker/dist/react-datepicker.css'
 
 function WdatePicker(props) {
-    const selectedDate = useMemo(() => {
-        return props.selectedDate ? props.selectedDate : new Date()
-    }, [props.selectedDate])
+
+    const [selecedDate, setselecedDate] = useState(props.selectedDate)
+
+    useEffect(() => {
+        props.onChange?.(selecedDate)
+    }, [props.selectedDate, selecedDate])
+
+
     return (
-        <ReactDatePicker className={styles.datePicker} placeholder={props.placeholder} selected={selectedDate} onChange={(date) => props.onChange?.(date)} />
+        <ReactDatePicker className={styles.datePicker} placeholder={props.placeholder} selected={selecedDate} onChange={(date) => setselecedDate(date)} />
     )
 }
 
