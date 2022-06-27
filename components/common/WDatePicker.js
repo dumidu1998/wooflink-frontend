@@ -5,15 +5,15 @@ import 'react-datepicker/dist/react-datepicker.css'
 
 function WdatePicker(props) {
 
-    const [selecedDate, setselecedDate] = useState(props.selectedDate)
+    const [selectedDate, setselectedDate] = useState(props.selectedDate ?? new Date())
 
     useEffect(() => {
-        props.onChange?.(selecedDate)
-    }, [props.selectedDate, selecedDate])
+        props.onChange?.(selectedDate)
+    }, [props.selectedDate, selectedDate])
 
 
     return (
-        <ReactDatePicker className={styles.datePicker} placeholder={props.placeholder} selected={selecedDate} onChange={(date) => setselecedDate(date)} />
+        <ReactDatePicker className={styles.datePicker} placeholder={props.placeholder} selected={selectedDate} onChange={(date) => setselectedDate(date)} />
     )
 }
 
