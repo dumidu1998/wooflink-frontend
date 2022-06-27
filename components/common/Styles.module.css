@@ -14,6 +14,18 @@
   padding: 2px;
 }
 
+.datePicker {
+  /* font-weight: bold; */
+  background-color: #f7f7faa0;
+  border: 1px solid #a0979770;
+  border-radius: 3px;
+  width: 275px;
+  padding-top: 16px;
+  padding-left: 6px;
+  padding-bottom: 16px;
+  margin-bottom: 14px;
+}
+
 .btn:hover {
   background: #fff124;
   color: #000000;
